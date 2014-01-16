@@ -2,10 +2,8 @@ maths
 =====
 
 Beginners often face challenges find projects to work on, speaking from experience. This mathematical project tries to
-fill that void. Although meant to be useful for beginner programmers to have something tangible to work on, non-beginners
-can also contibute to the library design.
+fill that void. Although meant to be useful for beginner programmers to have something tangible to work on, non-beginners can also contibute to the library design.
 
-======
 design
 ======
 
@@ -13,7 +11,6 @@ The math library (for now) has a namespace called 'maths,' within this name ther
 at the time of this writing, we have 18 functions in 'maths'. The other functions are meant to be added by the library
 contibutors.
 
-======
 Usage
 ======
 
