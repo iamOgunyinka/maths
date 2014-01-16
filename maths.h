@@ -1,9 +1,13 @@
 #include <array>
 #include "sales.h"
+#include "vector.h"
 
 namespace maths
 {
-	template<class T>
+	template <class T>
+	using vector = vector<T>;
+	
+        template<class T>
     using container = typename std::vector<T>;
     using svec = container<std::string>;
     using ivec = container<int>;
