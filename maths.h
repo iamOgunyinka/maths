@@ -11,7 +11,6 @@ namespace maths
     using pair_is = typename std::pair<int, std::string>; 
     using vec_pairs = container<pair_is>;
     
-    
 	template<typename T>
 	void cprint(const T &c, char sep = ' '){
 		typename T::const_iterator begin = c.cbegin(), end = c.cend();
@@ -172,6 +171,7 @@ namespace maths
 		return vect_t;
 	}
 	*/
+	
 	template<class T, class ...U>
 	auto apply(T && a, U &&...b) -> decltype(a(b...)){
 		return a(b...);
