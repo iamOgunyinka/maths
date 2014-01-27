@@ -7,7 +7,7 @@ int n,r,col[20],k;
 permset()
 {
 	clrscr();
-	printf("enter the value of n and r"\n);
+	printf("enter the value of n and r \n");
 	scanf("%d%d",&n,&r);
 	printf("\n\n");
 	for(k=1;k<=n;k++)
